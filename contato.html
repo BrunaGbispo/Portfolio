@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruna Dev</title>
+    <link rel="stylesheet" href="assests/style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" id="home">Home</a>
+        <ul class="menu">
+            <li><a href="Portifolio.html">Portifolio</a></li>
+            <li><a href="stacks.html">Stacks</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <h1>Contato</h1>
+
+    <div id="contato">
+        <div id="linksContato">
+            <span class="logo">
+                <img src="assests/Imagens/logo_linkedin.webp" alt="logo LinkedIn" width="30px" height="30px">
+                <a href="https://www.linkedin.com/in/bruna-araujo-43275a20b/">LinkedIn</a>
+            </span>
+
+            <span class="logo">
+                <img src="assests/Imagens/logo_github.png" alt="logo GitHub"  width="30px" height="30px">
+                <a href="https://github.com/BrunaGbispo">GitHub</a>
+            </span>
+
+            <span class="logo">
+                <img src="assests/Imagens/Gmail-Logo.png" alt="Logo Email"  width="30px" height="20px">
+                <a href="bruna.araujobispo@gmail.com">bruna.arujobispo@gmail.com</a>
+            </span>
+        </div>
+        <hr>
+        <div id="formulario">
+            <form name="form">
+                <legend>Entre em contato comigo!</legend><br>
+                <label for="name">Nome:</label><br>
+                <input type="text" id="nome"><br>
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email"><br>
+                <label for="message">Mensagem:</label><br>
+                <textarea id="mensagem" cols="20" rows="5"></textarea><br>
+                <button type="button" id="btn" onclick="validar()">Enviar</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="assests/script.js"></script>
+</html>

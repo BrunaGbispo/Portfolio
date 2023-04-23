@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+body{
+    background-color: #004761;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    color: azure;
+}
+a{
+    text-decoration: none;
+    color: #45BBE6;
+}
+nav ul li{
+    display: inline;
+    padding: 1rem;
+}
+nav a:hover{
+    color: #004761;
+    font-size: 22px;
+
+}
+nav{
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 15px;
+    align-items: center;
+    font-size: medium;
+}
+
+h1{
+    text-align: center;
+}
+.sobre{
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    color: aliceblue;
+    margin: 1em;
+    border-radius: 30px;
+    padding: 20px;
+
+}
+#apresentacao {
+    width: 60%;
+    text-align:  center;
+}
+.foto{
+    border-radius: 2rem;
+    width: 15rem;
+    align-items: center;
+}
+
+#projetos{
+    height: 290px;
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+    border-radius: 30px;
+}
+.cards{
+    text-align: center;
+    color: aliceblue;
+    background-image: linear-gradient(#99cde2 , #242730 , #111) ;
+    border-radius: 30px;
+}
+
+#icone{
+    width: 15rem;
+    height: 15rem;
+    background-image: linear-gradient(#99cde2 , #004761 , #111);
+    border-radius: 2rem;
+}
+
+.stacks{
+    height: 290px;
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stacks .foto{
+    width: 12rem;
+    height: 12rem;
+}
+
+#contato{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    margin: 3rem;
+    color: azure;
+}
+.logo{
+    display: flex;
+    width: 2rem;
+    color: antiquewhite;
+    width: 280px;
+    height: 60px;
+}
+hr{
+    height: 20rem;
+    width: 2px;
+    background-color: azure;
+}
+#formulario{
+    padding: 2rem;
+    text-align: center;
+    background-color: azure;
+    color: #004761;
+    font-weight: 400;
+    border-radius: 15px;
+}
+
+button{
+    background-image: linear-gradient(#99cde2 , #004761);
+    color: white;
+    border-radius: 15px;
+    font-size: 15px;
+}
