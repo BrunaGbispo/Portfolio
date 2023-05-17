@@ -1,130 +1,168 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
 body{
-    background-color: #004761;
+    background-color: #141414;
     font-family: "Comfortaa", sans-serif;
     font-size: 15px;
     margin: 0;
     padding: 0;
-    color: azure;
+    color: rgb(255, 251, 0);
 }
 a{
     text-decoration: none;
-    color: #45BBE6;
+    color: rgb(255, 251, 0);
 }
-nav ul li{
+nav ul li, a{
     display: inline;
-    padding: 1rem;
+    margin: 1rem;
+    color: rgb(255, 251, 0);
 }
 nav a:hover{
-    color: #004761;
-    font-size: 22px;
-
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
 }
 nav{
-    background-color: azure;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    left: 0;
+    position: fixed;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 10px;
-    border-radius: 15px;
     align-items: center;
+    justify-content: space-between;
     font-size: medium;
+    font-weight: 600;
+    background-color: #141414;
 }
 
 h1{
-    text-align: center;
+    padding-left: 0;
+    font-size: xxx-large;
+    margin: 2px;
 }
-.sobre{
-    height: 450px;
+h4, h2{
+    margin: 0.6rem 0.4rem;
+}
+.main{
+    height: 40rem;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    flex-direction: row;
-    color: aliceblue;
-    margin: 1em;
-    border-radius: 30px;
+    margin: 0;
+    border-bottom: solid 2px rgb(255, 251, 0);
     padding: 20px;
 
 }
 #apresentacao {
-    width: 60%;
-    text-align:  center;
+    width: 40%;
+    text-align: left;
+    padding-left: 8rem;
 }
 .foto{
-    border-radius: 2rem;
-    width: 15rem;
-    align-items: center;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    margin-right: 7rem;
+}
+.icon{
+    width: 5rem;
 }
 
-#projetos{
-    height: 290px;
-    margin: 2rem;
-    padding: 1rem;
-    display: flex;
-    align-items:center;
-    justify-content: space-between;
-
-    border-radius: 30px;
-}
-.cards{
-    text-align: center;
-    color: aliceblue;
-    background-image: linear-gradient(#99cde2 , #242730 , #111) ;
-    border-radius: 30px;
-}
-
-#icone{
-    width: 15rem;
-    height: 15rem;
-    background-image: linear-gradient(#99cde2 , #004761 , #111);
-    border-radius: 2rem;
-}
-
-.stacks{
-    height: 290px;
-    margin: 2rem;
-    padding: 1rem;
+#stacks{
+    margin: 2rem 0;
+    padding: 2rem 8.5rem 2rem 2rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
-.stacks .foto{
+.Stacks .foto{
     width: 12rem;
     height: 12rem;
+}
+#projects{
+    height: 35rem;
+    padding: 0 2rem;
+    margin: 2rem 0;
+    border-bottom: solid 2px rgb(255, 251, 0);
+    align-items: center;
+}
+#projetos{
+    margin-top: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin: 20px;
+    padding: 8px;
+    background-color: #0d0b0bb5;
+    border-radius: 15px;
+    text-align: center;
+}
+.iconProjects{
+    width: 250px;
+    border-radius: 15px;
+}
+.iconComingSoon{
+    width: 260px;
+    height: 258px;
+    border-radius: 15px; 
+    text-align: center;
+}
+#comingSoon{
+    height: 258px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#contact{
+    padding-left: 2rem;
+    margin-top: 20px;
+
 }
 
 #contato{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     padding: 2rem;
     margin: 3rem;
-    color: azure;
 }
 .logo{
     display: flex;
+    align-items: center;
     width: 2rem;
-    color: antiquewhite;
     width: 280px;
     height: 60px;
 }
-hr{
-    height: 20rem;
-    width: 2px;
-    background-color: azure;
-}
 #formulario{
     padding: 2rem;
+    margin-right: 18rem;
+    width: 30%;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    background-color: azure;
-    color: #004761;
+    background-color: #0d0b0bb5;
     font-weight: 400;
     border-radius: 15px;
 }
+input, textarea{
+    width: 90%;
+    margin: 7px;
+}
 
 button{
-    background-image: linear-gradient(#99cde2 , #004761);
-    color: white;
-    border-radius: 15px;
+    background-color: transparent;
+    border: solid 2px rgb(255, 251, 0);
+    color: rgb(255, 251, 0);
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 7rem;
     font-size: 15px;
 }
