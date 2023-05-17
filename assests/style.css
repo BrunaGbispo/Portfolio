@@ -155,8 +155,9 @@ h4, h2{
 input, textarea{
     width: 90%;
     margin: 7px;
-    background-color: transparent;
+    background-color: #141414;
     border: solid 2px rgb(255, 251, 0);
+    border-radius: 5px;
 }
 
 button{
